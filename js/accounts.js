@@ -1,4 +1,4 @@
-var accounts = [mitkobachvarov,tonyTheGreat]
+var accounts = [mitkobachvarov,tonyTheGreat, gero]
 
 var mitkobachvarov = {
     username : "mitkobachvarov",
@@ -18,4 +18,13 @@ var tonyTheGreat = {
     lastName: "Stark",
     age: 23
 
+};
+
+var gero = {
+    username: "gero",
+    password: "hell",
+    email: "gero@gmail.com",
+    firstName: "Gero",
+    lastName: "Stoev",
+    age: 25
 };
