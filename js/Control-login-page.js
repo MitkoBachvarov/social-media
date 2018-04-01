@@ -25,7 +25,7 @@ actionButton.addEventListener('click', function () {
 
     }
     if (isThere === true){
-        window.open("C:/Users/Mitko/Desktop/Javascript/Projects/social-media/html/success.html", '_blank');
+        window.open("../html/success.html", '_self');
     } else {
         alert("Wrong");
     }
