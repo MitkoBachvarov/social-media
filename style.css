@@ -1,0 +1,78 @@
+.welcome-div {
+    background-color: #39ac39;
+    position: relative;
+    top: -170px;
+    height: 300px;
+}
+
+.logo {
+    position: relative;
+    top: 155px;
+    left: 5px;
+    border: 0;
+    width: 300px;
+    height: 150px;
+
+}
+
+.welcome-message {
+    color: azure;
+    position: relative;
+    text-align: center;
+    right: 100px;
+    text-shadow: -1px -1px 0 #000;
+}
+
+.slogan {
+    color: azure;
+    position: relative;
+    text-align: center;
+    right: 100px;
+    text-shadow: -1px -1px 0 #000;
+}
+
+.login-form {
+    position: relative;
+    text-align: right;
+    left: -100px;
+
+}
+
+.username-login-box {
+    position: relative;
+    top: -100px;
+    left: -240px;
+}
+
+.username-login-text {
+    position: relative;
+
+}
+
+.username-login-input {}
+
+.password-login-box {
+    position: relative;
+    top: -140px;
+    width: 50px;
+    left: 1300px
+}
+
+.password-login-text {
+    position: relative;
+    top: 19px;
+
+}
+
+.password-login-input {
+    position: relative;
+    left: 80px;
+    top: -2px;
+
+}
+
+.login-button {
+    position: relative;
+    top: -165px;
+    left: 80px;
+}
