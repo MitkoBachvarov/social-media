@@ -1,4 +1,4 @@
-var accounts = [mitkobachvarov,tonyTheGreat]
+var accounts = [mitkobachvarov,tonyTheGreat, gero]
 
 var mitkobachvarov = {
     username : "mitkobachvarov",

@@ -14,24 +14,28 @@ include('./js/accounts.js');
 var getName = document.querySelector('.username-login-input');
 var getPass = document.querySelector('.password-login-input');
 var actionButton = document.querySelector('.login-button');
-
+var isThere = false;
 
 actionButton.addEventListener('click', function () {
     for (var i = 0; i < accounts.length; i++) {
         if (getName.value === accounts[i].username && getPass.value === accounts[i].password) {
-            window.open("../html/success.html", '_self');
-            break;
-        } else {
-            alert("Sorry, username or password incorrect");
-
+            isThere = true;
+            //break;
         }
 
+    }
+    if (isThere === true){
+        window.open("C:/Users/Mitko/Desktop/Javascript/Projects/social-media/html/success.html", '_blank');
+    } else {
+        alert("Wrong");
     }
 })
 
 
 
 /*
+window.open("../html/success.html", '_self');
+
         switch(getName.value === accounts[i].username && getPass.value === accounts[i].password){
             case true:
                 window.open("../html/success.html", "_self");
