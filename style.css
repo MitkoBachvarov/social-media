@@ -49,7 +49,11 @@
 
 }
 
-.username-login-input {}
+.username-login-input {
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
 
 .password-login-box {
     position: relative;
@@ -68,6 +72,9 @@
     position: relative;
     left: 80px;
     top: -2px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
 
 }
 

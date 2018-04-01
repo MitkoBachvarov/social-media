@@ -19,3 +19,12 @@ var tonyTheGreat = {
     age: 23
 
 };
+
+var gero = {
+    username: "gero",
+    password: "hell",
+    email: "gero@gmail.com",
+    firstName: "Gero",
+    lastName: "Stoev",
+    age: 25
+};

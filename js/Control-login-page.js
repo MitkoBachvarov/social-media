@@ -1,8 +1,7 @@
-
-function include(file){
+function include(file) {
 
     var script = document.createElement('script');
-    script.src =  file;
+    script.src = file;
     script.type = 'text/javascript';
     script.defer = true;
 
@@ -17,17 +16,29 @@ var getPass = document.querySelector('.password-login-input');
 var actionButton = document.querySelector('.login-button');
 
 
-actionButton.addEventListener('click',function(){
-    for(var i = 0; i < accounts.length; i++){
-
-        if(getName.value === accounts[i].username){
-            if(getPass.value === accounts[i].password){
+actionButton.addEventListener('click', function () {
+    for (var i = 0; i < accounts.length; i++) {
+        if (getName.value === accounts[i].username && getPass.value === accounts[i].password) {
             window.open("../html/success.html", '_self');
-
-            }
+            break;
         } else {
             alert("Sorry, username or password incorrect");
 
         }
+
     }
 })
+
+
+
+/*
+        switch(getName.value === accounts[i].username && getPass.value === accounts[i].password){
+            case true:
+                window.open("../html/success.html", "_self");
+                break;
+            default:
+                alert("Sorry, username or password are incorrect.");
+                break;
+        }
+
+*/
