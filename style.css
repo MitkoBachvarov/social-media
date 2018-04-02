@@ -83,3 +83,83 @@
     top: -165px;
     left: 80px;
 }
+
+/*
+REGISTRATION FORM BELOW
+*/
+
+.register-div {
+    position: relative;
+    float:right;
+    width: 430px;
+    border-style: solid;
+    padding: 25px 15px 15px 15px;
+    border-color: #ccf5ff;
+    border-radius: 20px;
+}
+
+.register-email-input {
+    position: relative;
+    left: 45px;
+    margin-bottom: 12px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+.register-username-input {
+    position: relative;
+    left: 17.5px;
+    margin-bottom: 12px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+.register-firstName-input {
+    position: relative;
+    left: 14px;
+    margin-bottom: 12px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+.register-lastName-input {
+    position: relative;
+    left: 15px;
+    margin-bottom: 12px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+.register-birth-input {
+    margin-bottom: 12px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+.register-password-input {
+    position: relative;
+    left: 25px;
+    margin-bottom: 12px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+.register-confirmPass-input {
+    position: relative;
+    margin-bottom: 12px;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+
+.button-register-account {
+    float:right;
+}
+
+

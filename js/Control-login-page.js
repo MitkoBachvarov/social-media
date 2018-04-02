@@ -20,7 +20,6 @@ actionButton.addEventListener('click', function () {
     for (var i = 0; i < accounts.length; i++) {
         if (getName.value === accounts[i].username && getPass.value === accounts[i].password) {
             isThere = true;
-            //break;
         }
 
     }
