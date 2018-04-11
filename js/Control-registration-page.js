@@ -32,6 +32,6 @@ regBtn.addEventListener('click', function(){
 
     }
 
-})
+});
 
 
